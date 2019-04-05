@@ -1,0 +1,35 @@
+.canvas {
+    height: 600px;
+    width: 600px;
+    background-color: #eee;
+    position: relative;
+}
+
+.sidepanel {
+    height: 600px;
+    width: 250px;
+}
+
+.shape {
+    position: absolute;
+}
+
+#square {
+    background-color: red;
+    opacity: 0.75;
+}
+
+#rectangle {
+    background-color: green;
+    opacity: 0.75;
+}
+
+#circle {
+    background-color: purple;
+    opacity: 0.75;
+    border-radius: 50%;
+}
+
+#triangle {
+    opacity: 0.75;
+}
