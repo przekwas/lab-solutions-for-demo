@@ -1,13 +1,14 @@
 .canvas {
     height: 600px;
     width: 600px;
-    background-color: #eee;
+    background-color: rgba(0, 145, 234, 1);
     position: relative;
 }
 
 .sidepanel {
     height: 600px;
     width: 250px;
+    background-color: #a6c;
 }
 
 .shape {
@@ -32,4 +33,13 @@
 
 #triangle {
     opacity: 0.75;
+}
+
+.custom {
+    background-color: #ec407a!important;
+    color: white;
+}
+
+.bg-blue {
+    background-color: #303f9f!important;
 }

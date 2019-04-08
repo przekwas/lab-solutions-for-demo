@@ -13,11 +13,12 @@
 
 <body>
 
-    <div class="container p-3 mt-2 mb-4 border rounded border-dark shadow">
+    <div class="container p-3 mt-4 mb-4 border rounded border-dark shadow">
+        <h6 class="text-center mb-3">Add A Shape!</h6>
         <!-- rectangle input-group -->
         <div class="input-group input-group-sm mb-2">
             <div class="input-group-prepend">
-                <button class="btn btn-outline-primary" id="rectangle-btn">Add Rectangle</button>
+                <button class="btn custom" id="rectangle-btn">Add Rectangle</button>
             </div>
             <input type="text" aria-label="Height" class="form-control" placeholder="height px">
             <input type="text" aria-label="Width" class="form-control" placeholder="width px">
@@ -26,13 +27,13 @@
         <div class="input-group input-group-sm mb-2">
             <input type="text" aria-label="Side length" class="form-control" placeholder="side length px">
             <div class="input-group-prepend">
-                <button class="btn btn-outline-primary" id="square-btn">Add Square</button>
+                <button class="btn custom" id="square-btn">Add Square</button>
             </div>
         </div>
         <!-- circle input-group -->
         <div class="input-group input-group-sm mb-2">
             <div class="input-group-prepend">
-                <button class="btn btn-outline-primary" id="circle-btn">Add Circle</button>
+                <button class="btn custom" id="circle-btn">Add Circle</button>
             </div>
             <input type="text" aria-label="Radius" class="form-control" placeholder="radius px">
         </div>
@@ -40,14 +41,14 @@
         <div class="input-group input-group-sm mb-2">
             <input type="text" aria-label="Triangle height" class="form-control" placeholder="height px">
             <div class="input-group-prepend">
-                <button class="btn btn-outline-primary" id="triangle-btn">Add Triangle</button>
+                <button class="btn custom" id="triangle-btn">Add Triangle</button>
             </div>
         </div>
     </div>
 
     <div class="d-flex justify-content-around mx-5">
-        <div class="canvas border border-dark shadow"></div>
-        <div class="sidepanel border border-dark shadow py-5 px-3 d-flex flex-column justify-content-around">
+        <div class="canvas border border-dark shadow-lg"></div>
+        <div class="sidepanel border border-dark shadow-lg py-5 px-3 d-flex flex-column justify-content-around">
             <div class="input-group input-group-sm mb-2 border border-dark rounded shadow-sm">
                 <div class="input-group-prepend">
                     <span class="input-group-text">Shape</span>

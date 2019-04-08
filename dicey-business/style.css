@@ -1,0 +1,9 @@
+.die {
+    height: 150px;
+    width: 150px;
+    line-height: 135px;
+    text-align: center;
+    font-size: 5em;
+    border: 3px solid black;
+    border-radius: 18%;
+}
