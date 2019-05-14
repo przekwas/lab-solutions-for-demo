@@ -124,7 +124,6 @@ class Triangle extends Shape {
             width: 0,
             borderBottom: `${this.height}px solid yellow`,
             borderRight: `${this.height}px solid transparent`,
-
         });
         this.div.click(() => this.describeTriangle());
     }

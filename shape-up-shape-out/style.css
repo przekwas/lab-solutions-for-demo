@@ -25,16 +25,6 @@
     opacity: 0.75;
 }
 
-#circle {
-    background-color: purple;
-    opacity: 0.75;
-    border-radius: 50%;
-}
-
-#triangle {
-    opacity: 0.75;
-}
-
 .custom {
     background-color: #ec407a!important;
     color: white;
